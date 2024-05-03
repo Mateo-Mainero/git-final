@@ -1,0 +1,71 @@
+/*animation*/
+.box{
+    width:100px;
+    height: 100px;
+    border: 4px solid white;
+    border-radius: 5px;
+    background: $color-blue-violet;
+    animation: 
+    change-color 5s infinite alternate,
+    move-box 5s infinite alternate;
+}
+.box{
+    a{
+        img{
+            @include medidas (100%, 100%);
+        }
+    }
+
+    
+}
+.box{
+    &:hover{
+        background: $hover-color;
+    }
+}
+
+@keyframes change-color{
+ 0% {
+    background: $hover-color;
+ }
+ 25%{
+    background: green;
+ }
+ 75%{
+    background: indigo;
+ }
+
+ 100%{
+      background: red;
+    }
+
+}
+@keyframes move-box {
+    0%{
+        transform: translateX(-150%);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}
+
+.dc-batman{
+    @include medidas (6rem, auto);
+    animation: 
+    change-batman 5s infinite alternate,
+    move-batman 5s infinite alternate;
+  
+    }
+    
+  
+  
+  @keyframes move-batman{
+    0%{
+      transform: translateX(20px);
+  }
+  100%{
+      transform: translateX(247px);
+  }
+  }
+  
+  

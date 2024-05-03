@@ -1,0 +1,20 @@
+ /*estilos body*/
+
+ body{
+    color: $body-color;
+    background-color: $body-bg-color;
+    font-family: $font-oswald;
+    background-image:linear-gradient(to bottom, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../imagen/fondo-de-pantalla-prin.jpg);
+    background-size: cover;
+    background-position: center;
+    .header-announcement{
+      background-color: $color-secundario;
+      box-shadow: 1px 2px 3px $color-secundario; 
+      font-size: 12px;
+      text-align: center;
+     }
+
+    
+    }
+
+

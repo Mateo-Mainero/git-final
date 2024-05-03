@@ -1,0 +1,41 @@
+/*NAV BAR */
+
+.navbar {
+    display: flex;
+    margin: 10px 10px;
+    background-color:$color-secundario;
+    box-shadow: 5px 5px 10px $box-shadow;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+    
+    border-bottom: 2px solid $color-secundario;
+    .logo{
+      @include medidas (3rem, 3rem);
+      margin: 10px 0px 0px 10px;  
+    }
+  
+    .nav-links {
+      display: flex;
+      list-style: none;
+  
+      li {
+        margin-right: 20px;
+        
+        a {
+          text-decoration: none;
+          color: $color-primario;
+          
+          &:hover {
+            background-color:$color-blue-violet;
+            color: $color-secundario;
+          }
+        }
+      }
+    }
+ }
+        
+
+
+  

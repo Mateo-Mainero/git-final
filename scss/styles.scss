@@ -1,0 +1,30 @@
+ // import fonts
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+ // import utilidades
+ @import "utilidades/variables";
+ @import "utilidades/mixin.scss";
+ @import "utilidades/animation";
+ 
+ 
+ // import componentes
+ @import "componentes/mq";
+ @import "componentes/pseudoclases";
+ @import "componentes/carousel";
+ 
+
+ //import paginas-scss
+ @import "paginas-scss/header";
+ @import "paginas-scss/body";
+ @import "paginas-scss/main";
+ @import "paginas-scss/section";
+ @import "paginas-scss/footer";
+ @import "paginas-scss/reset";
+
+
+
+
+
+

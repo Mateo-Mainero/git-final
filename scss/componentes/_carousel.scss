@@ -1,0 +1,9 @@
+.slide{
+    margin:10px 10px;
+    color: whitesmoke;
+    @include medidas (90vh, auto);
+    border-radius: 20px;
+    border: 10px solid;
+    box-shadow: 5px 5px 10px  $box-shadow;
+  }
+  

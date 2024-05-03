@@ -1,0 +1,12 @@
+/* estilos de section */
+section{
+    background-color: $bg-color;
+    color: $color-primario;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 40px 20px;
+    box-shadow: 3px 3px 15px $box-shadow;
+    border-radius: 5px;
+ }

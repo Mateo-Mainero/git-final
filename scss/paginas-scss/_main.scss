@@ -1,0 +1,147 @@
+ /* estilos main */
+
+
+ main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    flex-wrap: wrap;
+ }
+ main{
+    p{
+        color: $color-secundario;
+    }
+ }
+
+ main {
+    div{
+        h1{
+            color: $color-secundario;
+            background-color: $color-primario;
+            margin: 40px 20px;
+            padding: 10px 10px;
+            box-shadow:5px 5px 10px $box-shadow;
+            border-radius: 5px;
+        }
+        }
+     }
+
+ main {
+    .textos{
+        
+        text-align: center;
+        h1{
+            margin: 10px 0px;
+            span{
+                display: block;
+                
+            }
+        }
+    }
+ }
+ main {
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+ }
+
+ main {
+    .textos{
+        
+        .boton{
+            background-color: $color-primario;
+            color: $color-secundario;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+            box-shadow: 2px 3px 5px $box-shadow;
+            border-radius: 5px;
+          
+        }
+    }
+ }
+
+ .boton{
+    a{
+        list-style: none;
+        text-decoration: none;
+     
+    }
+}
+
+ main {
+    div{
+        img{
+            object-fit: cover;
+            @include medidas ( 100% , 100%);
+        }
+    }
+ }
+ /* grid pagina principal*/
+ main{
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(3,29%);
+        gap: 2rem;
+        object-fit: cover;
+        box-sizing: border-box;
+        margin: 30px 20px;
+    }
+ }
+
+ /* grid pagina 2 */
+
+ main{
+    .contenedor-dos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(3, 29%) ;
+        gap: 2rem;
+        object-fit: cover;
+        margin:20px 10px;
+        img{
+            @include medidas (100% , 100%);
+        }
+    }
+ }
+
+ 
+ /*grid pagina tres*/
+ main{
+    .contenedor-tres{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,29%);
+        gap: 2rem;
+        object-fit: cover;
+        box-sizing: border-box;
+        margin: 30px 20px;
+    }
+ }
+ /* gird pagina cuatro */
+ main{
+    .contenedor-cuatro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,29%);
+        gap: 2rem;
+        object-fit: cover;
+        box-sizing: border-box;
+        margin: 30px 20px;
+    }
+ }
+ /* grid pagina cinco*/
+ main{
+    .contenedor-cinco{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,29%);
+        gap: 2rem;
+        object-fit: cover;
+        box-sizing: border-box;
+        margin: 30px 20px;
+    }
+ }

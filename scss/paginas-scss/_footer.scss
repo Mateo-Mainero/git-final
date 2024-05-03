@@ -1,0 +1,82 @@
+ /* footer */
+
+
+footer  {
+    color: var(--bg-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 15px 0;
+    padding: 15px;
+    background: $color-blue-violet;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 20px ;
+    margin: 10px 10px;
+    box-shadow: 2px 3px 15px $color-secundario;
+
+
+
+    animation-name: change-footer ;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes change-footer{
+   0%{
+    background: white;
+   }
+   15%{
+    background: red;
+   }
+   20%{
+    background: green;
+   }
+   25%{
+    background: blue;
+   }
+   30%{
+    background: skyblue;
+   }
+   40%{
+    background: turquoise;
+   }
+   50%{
+    background: violet;
+   }
+   55%{
+    background: pink;
+   }
+   60%{
+    background: yellow;
+   }
+   65%{
+    background: orange;
+   }
+   70%{
+    background: lightgreen;
+   }
+   75%{
+    background: purple;
+   }
+   80%{
+    background: darkorange;
+   }
+   90%{
+    background: darkgreen;
+   }
+   100%{
+    background: darkorange;
+   }
+
+
+}
+
+
